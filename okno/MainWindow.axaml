@@ -8,9 +8,10 @@
         WindowStartupLocation="CenterScreen"
         Background="LightYellow">
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
-        <TextBlock x:Name="Napis" Text="Warsztat" FontSize="36" Foreground="Navy" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="Napis" Text="Warsztat" FontSize="{Binding #Rozmiar.Value}" Foreground="Navy" HorizontalAlignment="Center"/>
         <TextBox x:Name="PoleImie" PlaceholderText="Wpisz imię" Width="200"/>
         <Button x:Name="Przycisk" Content="Kliknij mnie" HorizontalAlignment="Center" Click="Przycisk_Click"
                 Background="ForestGreen" Foreground="White"/>
+        <Slider x:Name="Rozmiar" Minimum="16" Maximum="60" Value="36" Width="200"/>
     </StackPanel>
 </Window>
