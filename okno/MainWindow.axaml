@@ -8,10 +8,12 @@
         WindowStartupLocation="CenterScreen"
         Background="LightYellow">
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
-        <TextBlock x:Name="Napis" Text="Warsztat" FontSize="{Binding #Rozmiar.Value}" Foreground="Navy" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="Napis" Text="Warsztat" FontSize="{Binding #Rozmiar.Value}" Foreground="Navy" HorizontalAlignment="Center"
+                   IsVisible="{Binding #Pokaz.IsChecked}"/>
         <TextBox x:Name="PoleImie" PlaceholderText="Wpisz imię" Width="200"/>
         <Button x:Name="Przycisk" Content="Kliknij mnie" HorizontalAlignment="Center" Click="Przycisk_Click"
                 Background="ForestGreen" Foreground="White"/>
         <Slider x:Name="Rozmiar" Minimum="16" Maximum="60" Value="36" Width="200"/>
+        <CheckBox x:Name="Pokaz" Content="Pokaż napis" IsChecked="True" HorizontalAlignment="Center"/>
     </StackPanel>
 </Window>
