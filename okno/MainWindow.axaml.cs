@@ -16,5 +16,7 @@ public partial class MainWindow : Window
     {
         klikniecia++;
         Przycisk.Content = $"Kliknięto: {klikniecia}";
+        if (!string.IsNullOrWhiteSpace(PoleImie.Text))
+            Napis.Text = $"Cześć, {PoleImie.Text.Trim()}!";
     }
 }
