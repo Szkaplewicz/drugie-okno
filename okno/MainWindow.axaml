@@ -9,6 +9,6 @@
         Background="LightYellow">
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
         <TextBlock Text="Warsztat" FontSize="36" Foreground="Navy" HorizontalAlignment="Center"/>
-        <Button Content="Kliknij mnie" HorizontalAlignment="Center"/>
+        <Button x:Name="Przycisk" Content="Kliknij mnie" HorizontalAlignment="Center" Click="Przycisk_Click"/>
     </StackPanel>
 </Window>
