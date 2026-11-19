@@ -6,5 +6,5 @@
         x:Class="okno.MainWindow"
         Title="Drugie okno" Width="500" Height="350"
         WindowStartupLocation="CenterScreen">
-    <TextBlock Text="Warsztat" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <TextBlock Text="Warsztat" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 </Window>
