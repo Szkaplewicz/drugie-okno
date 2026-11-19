@@ -1,3 +1,4 @@
+using System;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 
@@ -10,6 +11,7 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        Data.Text = $"Dziś jest {DateTime.Now:d MMMM yyyy}";
     }
 
     private void Przycisk_Click(object? sender, RoutedEventArgs e)

@@ -15,5 +15,6 @@
                 Background="ForestGreen" Foreground="White"/>
         <Slider x:Name="Rozmiar" Minimum="16" Maximum="60" Value="36" Width="200"/>
         <CheckBox x:Name="Pokaz" Content="Pokaż napis" IsChecked="True" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="Data" Foreground="Gray" FontSize="12" HorizontalAlignment="Center"/>
     </StackPanel>
 </Window>
