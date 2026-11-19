@@ -10,6 +10,7 @@
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
         <TextBlock x:Name="Napis" Text="Warsztat" FontSize="36" Foreground="Navy" HorizontalAlignment="Center"/>
         <TextBox x:Name="PoleImie" PlaceholderText="Wpisz imię" Width="200"/>
-        <Button x:Name="Przycisk" Content="Kliknij mnie" HorizontalAlignment="Center" Click="Przycisk_Click"/>
+        <Button x:Name="Przycisk" Content="Kliknij mnie" HorizontalAlignment="Center" Click="Przycisk_Click"
+                Background="ForestGreen" Foreground="White"/>
     </StackPanel>
 </Window>
